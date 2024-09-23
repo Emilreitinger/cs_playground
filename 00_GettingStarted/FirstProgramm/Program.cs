@@ -4,18 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number = 50;
-        int second = 2;
-        string? input;
-        Console.WriteLine($"Number: {number}, {second}");
+        int num1 = 0;
+        int num2 = 0;
+        num1 = Convert.ToInt32(Console.ReadLine());
+        num2 = Convert.ToInt32(Console.ReadLine());
 
-        input = Console.ReadLine();
-        Console.ReadLine($"Number: {input}");
-
-        if(number == 10) {
-            //TODO
-        } else if {
-            
+        if(num1 == num2) {
+            Console.WriteLine($"Right");
+        } else if(num1 < num2) {
+            Console.WriteLine($"to high");
+        } else {
+            Console.WriteLine($"to low");
         }
+    
     }
 }
