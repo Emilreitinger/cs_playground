@@ -6,16 +6,20 @@ class Program
     {
         int num1 = 0;
         int num2 = 0;
-        num1 = Convert.ToInt32(Console.ReadLine());
-        num2 = Convert.ToInt32(Console.ReadLine());
-
-        if(num1 == num2) {
-            Console.WriteLine($"Right");
-        } else if(num1 < num2) {
-            Console.WriteLine($"to high");
-        } else {
-            Console.WriteLine($"to low");
-        }
-    
+        
+        Console.WriteLine($"Number:");
+            num1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"guess:");
+        for(int i = 0; i < 10; i++) {
+            num2 = Convert.ToInt32(Console.ReadLine());
+        
+            if(num1 == num2) {
+                Console.WriteLine($"Right");
+            } else if(num1 < num2) {
+                Console.WriteLine($"to high");
+            } else {
+                Console.WriteLine($"to low");
+            }
+        }  
     }
 }
