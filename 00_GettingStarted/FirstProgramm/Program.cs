@@ -20,10 +20,12 @@
                     Console.WriteLine("Right");
                     break;
                 }
-                else if (num1 < num2) {
+                else if (num1 < num2)
+                {
                     Console.WriteLine("Too high");
                 }
-                else {
+                else
+                {
                     Console.WriteLine("Too low");
                 }
             }
