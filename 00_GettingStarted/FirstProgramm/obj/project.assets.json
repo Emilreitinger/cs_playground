@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\cs_playground\\00_GettingStarted\\FirstProgramm\\FirstProgramm.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\SEW\\cs_playground\\00_GettingStarted\\FirstProgramm\\FirstProgramm.csproj",
       "projectName": "FirstProgramm",
-      "projectPath": "C:\\Users\\Lenovo\\Documents\\cs_playground\\00_GettingStarted\\FirstProgramm\\FirstProgramm.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Documents\\SEW\\cs_playground\\00_GettingStarted\\FirstProgramm\\FirstProgramm.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Documents\\cs_playground\\00_GettingStarted\\FirstProgramm\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Documents\\SEW\\cs_playground\\00_GettingStarted\\FirstProgramm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
