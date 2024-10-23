@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic; //für List
 
 namespace FirstProgram
 {
@@ -48,25 +49,41 @@ namespace FirstProgram
                 Console.WriteLine("smaller than 10");
             } while (number1 < 10);
 
-            // for Schleife
+            // 6) for Schleife
             for (int i = 0; i < number1; i++) {
                 Console.WriteLine(i);
             }
 
-            // array D1
+            // 7) array D1
             int[] arr = new int[3];
             arr[0] = 10;
             arr[1] = 20;
             arr[2] = 30;
             Console.WriteLine("number: " + arr[0]);
 
-            // array D2
+            // 8) array D2
             string[,] arr2 = new string[2, 2];
             arr2[0, 0] = "Emil";
             arr2[0, 1] = "1";
             arr2[1, 0] = "Teuerman";
             arr2[1, 1] = "5";
-            Console.WriteLine(arr2[0, 0] + " " + arr2[0, 1]);
+            for(int i = 0; i < arr2.GetLength(0); i++) {
+                for(int j = 0;  j < arr2.GetLength(1); j++) {
+                    Console.Write(arr2[i, j]+ " ");
+                }
+                Console.WriteLine();    
+            }
+
+            //9) List & foreach
+            List<string> food = new List<string>();
+            food.Add("burger");
+            food.Add("pizza");
+            food.Add("soup");
+            food.Add("Chicken");
+
+            foreach(string item in food) {
+                Console.WriteLine(item);
+            }
         }
     }
 }
